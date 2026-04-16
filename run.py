@@ -13,10 +13,3 @@ In Pyhthon there are builtin tools:
 '''
 print(dir(__builtins__))
 
-count = 4002
-count_type = type(count)
-print(f"the count: {count} and type: {type}")
-
-result1 = count.bit_count()
-result2 = count.numerator
-print (result1, result2)
