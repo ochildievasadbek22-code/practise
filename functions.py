@@ -5,13 +5,13 @@
 (4) Scope
 '''
 
-print("=======Define vs Call========")
+print("=======Define (parametr) vs Call (argument) ========")
 # built in function > print(), type()
 # Function - reusable block of code!
 # Instead of block {} in Java, Python uses indentation!
 
 
-# Define - build
+# Define - build (Parametr)
 def greet(a):
     print(f"How do you do, {a}")
 
@@ -21,9 +21,25 @@ def greeting(b):
     return f"Hi {b}"
 
 
-# Call - execute
+# Call - execute (Argument)
 result1 = greet("Martin")
 print("result1", result1)
 
 result2 = greeting("Justin")
 print("result2", result2)
+
+
+print("======= Keyword & Default arguments ========")
+# DEFINE
+
+
+def give_greet(name, age=22):
+    print("give_greet is executed")
+    return f"Hi {name}, you are {age} years old!"
+
+
+result3 = give_greet(name="Justin", age=28)
+print("result3", result3)
+
+result4 = give_greet(name="John")
+print("result4", result4)
