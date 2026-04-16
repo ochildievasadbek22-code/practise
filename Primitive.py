@@ -40,5 +40,8 @@ print(f"the input value is numeric: {result}")
 # TRUTH: True 100 -100 ""
 # FALSY: False 0 "" None
 
-test_falsy = ""
-print("The FALSY", bool(test_falsy))
+test_falsy = "" or False or None or 0 or 100
+print("The FALSY:", bool(test_falsy))
+
+truth = "MIT"
+print("The TRUTHY:", bool(test_truthy))
