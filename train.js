@@ -6,16 +6,20 @@ MASALAN countDigits("ad2a54y79wet0sfgb9") 7ni return qiladi.
 
 /* Masalaning yechimi: */
 
+function countDigits(str) {
+  con = 0;
+  for (let h of str) {
+    if (h >= "0" && h <= "9")
+      con++
+  }
+  return con
+}
+console.log(countDigits("ad2a54y79wet0sfgb9"))
 
 
 
 
-
-   
-
-
-
-/* A-TASK: 
+/* A-TASK:
 Savol: Shunday 2 parametrli function tuzing, hamda birinchi parametrdagi letterni ikkinchi parametrdagi sozdan qatnashgan sonini return qilishi kerak boladi.
 MASALAN countLetter("e", "engineer") 3ni return qiladi.
 */
