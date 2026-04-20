@@ -1,11 +1,9 @@
-/* A-TASK: 
+/* B-TASK: 
 Savol:Shunday function tuzing, u 1ta string parametrga ega bolsin, hamda osha stringda qatnashgan raqamlarni sonini bizga return qilsin.
 MASALAN countDigits("ad2a54y79wet0sfgb9") 7ni return qiladi.
 */
 
-
-/* Masalaning yechimi: */
-
+// Masalaning yechimi: 
 function countDigits(str) {
   con = 0;
   for (let h of str) {
@@ -14,9 +12,10 @@ function countDigits(str) {
   }
   return con
 }
-console.log(countDigits("ad2a54y79wet0sfgb9"))
+const result = countDigits("ad2a54y79wet0sfgb9")
+console.log(result)
 
-
+//========================================================================================
 
 
 /* A-TASK:
