@@ -1,5 +1,5 @@
 '''
-(1) ENCAPSULATION
+(1) ENCAPSULATION <
 (2) INHERITANCE
 (3) POLIMORPHISM
 '''
@@ -72,7 +72,8 @@ except Exception as err:
     print("No target state found:", err)
 
 
+# getter vs setter
 print('owner before', my_account.holder)  # state
 # my_account.change_ownership("Martin")
-my_account.holder = "Martin"
+my_account.holder = "Martin"  # state
 print('owner after', my_account.holder)  # state
