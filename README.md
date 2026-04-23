@@ -28,4 +28,9 @@ Learning GIT and Python Foundation
 - Class Deep Dive
 - Operation & Conditions 
 - Loops
+- Tuple
+- List
+- Array
+- Comprehension
+- Debugging
 - ...
