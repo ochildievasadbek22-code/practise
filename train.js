@@ -1,21 +1,55 @@
-/* C-TASK: 
+/* D-TASK: 
+
+Savol: Shunday function tuzingki unga integerlardan iborat array pass bolsin va function bizga osha arrayning eng katta qiymatiga tegishli birinchi indexni qaytarsin.
+MASALAN: getHighestIndex([5, 21, 12, 21, 8]) return qiladi 1 sonini.
+*/
+
+// Masalaning yechimi: 
+
+function the(n) {
+  const max = Math.max(...n)
+  const index = n.indexOf(max)
+  return index
+}
+
+const result = the([5, 21, 12, 21, 8])
+console.log(result)
+
+
+
+
+
+
+
+
+//========================================================================================
+
+
+
+
+
+
+
+
+
+/* C-TASK:
 Savol: Shunday function tuzing, u 2ta string parametr ega bolsin, hamda agar har ikkala string bir hil harflardan iborat bolsa true aks holda false qaytarsin
 MASALAN checkContent("mitgroup", "gmtiprou") return qiladi true;
 */
 
 // Masalaning yechimi: 
 
-function checkContent(a, b) {
-  const sort1 = a.split("")
-  const sort2 = b.split("")
-  const q = sort1.sort()
-  const p = sort2.sort()
-  const x = p.join('')
-  const y = q.join('')
-  return x === y;
-}
-const result = checkContent('mitgroup', 'gmtiprou')
-console.log(result)
+// function checkContent(a, b) {
+//   const sort1 = a.split("")
+//   const sort2 = b.split("")
+//   const q = sort1.sort()
+//   const p = sort2.sort()
+//   const x = p.join('')
+//   const y = q.join('')
+//   return x === y;
+// }
+// const result = checkContent('mitgroup', 'gmtiprou')
+// console.log(result)
 
 
 
