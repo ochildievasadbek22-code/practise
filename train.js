@@ -1,4 +1,50 @@
-/* D-TASK: 
+
+
+
+
+
+/* E-TASK: 
+
+Savol: Shunday function tuzing, u bitta string argumentni qabul qilib osha stringni teskari qilib return qilsin.
+MASALAN: getReverse("hello") return qilsin "olleh"
+*/
+
+// Masalaning yechimi: 
+
+function revers(a) {
+  const split = a.split("")
+  const reverse = split.reverse()
+  const join = reverse.join("")
+  return join
+}
+const result = revers("hello")
+console.log(result)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//========================================================================================
+
+
+
+
+
+
+/* D-TASK:
 
 Savol: Shunday function tuzingki unga integerlardan iborat array pass bolsin va function bizga osha arrayning eng katta qiymatiga tegishli birinchi indexni qaytarsin.
 MASALAN: getHighestIndex([5, 21, 12, 21, 8]) return qiladi 1 sonini.
@@ -6,14 +52,14 @@ MASALAN: getHighestIndex([5, 21, 12, 21, 8]) return qiladi 1 sonini.
 
 // Masalaning yechimi: 
 
-function the(n) {
-  const max = Math.max(...n)
-  const index = n.indexOf(max)
-  return index
-}
+// function the(n) {
+//   const max = Math.max(...n)
+//   const index = n.indexOf(max)
+//   return index
+// }
 
-const result = the([5, 21, 12, 21, 8])
-console.log(result)
+// const result = the([5, 21, 12, 21, 8])
+// console.log(result)
 
 
 
