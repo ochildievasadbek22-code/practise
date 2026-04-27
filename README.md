@@ -32,5 +32,5 @@ Learning GIT and Python Foundation
 - List
 - Array
 - Comprehension
-- Debugging
+- Packages & Debugging
 - ...
