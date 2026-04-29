@@ -21,10 +21,29 @@ function division(a, b, callback) {
 }
 }
 // call -asynchronous function
-division(7, 0, function(error, data) {
+division(10, 3, function(error, data) {
     if (error) console.log("ERROR:", error);
     else {   
     console.log("RESULT:", data);
     console.log("...:");
+
+
+    division(10, 4, function(error, data) {
+        if (error) console.log("ERROR:", error);
+        else {   
+        console.log("RESULT:", data);
+        console.log("...:");
+
+        division(20, 7, function(error, data) {
+            if (error) console.log("ERROR:", error);
+            else {   
+            console.log("RESULT:", data);
+            console.log("...:");
+        }
+        });
+        
+    }
+    });
+    
 }
 });
