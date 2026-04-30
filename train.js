@@ -1,3 +1,59 @@
+
+
+
+/* G-TASK (NodeJS)
+
+Savol: Shunday function tuzingki unga integerlardan iborat array pass bolsin va function bizga osha arrayning eng katta qiymatiga tegishli birinchi indexni qaytarsin.
+MASALAN: get_highest_index([5, 21, 12, 21, 8]) return qiladi 1 sonini.
+*/
+
+// Masalaning yechimi: 
+
+let array = [5, 21, 12, 21, 8]
+function get_highest_index() {
+  let maxIndex = array.indexOf(Math.max(...array))
+  return maxIndex
+}
+console.log(get_highest_index())
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//===============================================================================================================================
+
+
+
+
+
 /* F-TASK (NodeJS)
 
 Savol: Shunday findDoublers function tuzing, unga faqat bitta string argument pass bolib, agar stringda bir hil harf qatnashgan bolsa true, qatnashmasa false qaytarishi kerak.
@@ -6,19 +62,19 @@ MASALAN: getReverse("hello") return true return qiladi
 
 // Masalaning yechimi: 
 
-function findDoublers(a) {
-  const splitted = a.split("")
-  for (let i = 0; i < splitted.length; i++) {
-    for (let j = 0; j < splitted.length; j++) {
-      if (i !== j && splitted[i] === splitted[j]) {
-        return true
-      }
-    }
-  }
-  return false
-}
+// function findDoublers(a) {
+//   const splitted = a.split("")
+//   for (let i = 0; i < splitted.length; i++) {
+//     for (let j = 0; j < splitted.length; j++) {
+//       if (i !== j && splitted[i] === splitted[j]) {
+//         return true
+//       }
+//     }
+//   }
+//   return false
+// }
 
-console.log(findDoublers("hello"))
+// console.log(findDoublers("hello"))
 
 
 
