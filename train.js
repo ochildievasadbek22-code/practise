@@ -1,6 +1,56 @@
 
 
 
+
+
+/* H-TASK (NodeJS)
+
+Savol: shunday function tuzing, u integerlardan iborat arrayni argument sifatida qabul qilib, faqat positive qiymatlarni olib string holatda return qilsin
+MASALAN: getPositive([1, -4, 2]) return qiladi "12"
+*/
+
+// Masalaning yechimi: 
+
+function getPositive(arr) {
+  let result = "";
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i] > 0) {
+      result += arr[i];
+    }
+  }
+  return result;
+}
+console.log(getPositive([1, -4, 2]))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//===============================================================================================================================
+
+
+
 /* G-TASK (NodeJS)
 
 Savol: Shunday function tuzingki unga integerlardan iborat array pass bolsin va function bizga osha arrayning eng katta qiymatiga tegishli birinchi indexni qaytarsin.
@@ -9,25 +59,12 @@ MASALAN: get_highest_index([5, 21, 12, 21, 8]) return qiladi 1 sonini.
 
 // Masalaning yechimi: 
 
-let array = [5, 21, 12, 21, 8]
-function get_highest_index() {
-  let maxIndex = array.indexOf(Math.max(...array))
-  return maxIndex
-}
-console.log(get_highest_index())
-
-
-
-
-
-
-
-
-
-
-
-
-
+// let array = [5, 21, 12, 21, 8]
+// function get_highest_index() {
+//   let maxIndex = array.indexOf(Math.max(...array))
+//   return maxIndex
+// }
+// console.log(get_highest_index())
 
 
 

@@ -1,47 +1,60 @@
-# PRACTISE PROJECT
+# Madagascar Project
 
-Learning GIT and Python Foundation
+Build DJANGO application based on Architectural Pattern to organize CRUD and SSR client to Deploy on VPS!
 
-## GIT COMMANDS:
+## Introduction & Learning Path
 
-```
- git config --global user.name 
- git config --global user.name "your_name
- git config --global user.email "your_email.@example.com"
- git init 
+1. Build Virtual Environments: Madagascar[pipenv] & Barokai[conda]
+2. Django WebServer Framework
+3. What is Database: RDBS vs NoSQL
+4. Setup and Migrate SQL database
+5. System Design & Patterns
+6. Create Madagascar project apps
+7. Develop Portfolio\*
+8. Organize Frontend standard
+9. Integrate project frontend source
+10. What is CRUD, Create and Read plans
+11. Delete and Update plans
+12. What is Kernel & Shell language
+13. Deploy project on VPS/VPC
 
- git status
- git add .
- git commit -m "feat: Initial Setup"
+## Project run source
 
- git remote add origin https://github_address
- git push origin master
- git pull origin master
-```
+- Install pipenv & create Virtual environment
 
-## Python Foundation:
+  ```
+  pip install pipenv
+  pipenv install --python 3.11
+  ```
 
-- Primitive Variable
-- Function
-- Object
-- Class
-- Class Deep Dive
-- Operation & Conditions 
-- Loops
-- Tuple
-- List
-- Array
-- Comprehension
-- Packages & Debugging
-- ...
+- Install packages:
 
-## Pip Commands:
-```
-window pip | MacOs pip3
+  ```
+  pipenv install
+  pipenv install django==4.2
+  ```
 
-pip3 list
-pip3 install pillow
-pip3 uninstall pillow
-pip3 show pillow
-pip3 freeze > requirements.txt
-```
+- Migrate Database
+
+  ```
+  ./manage.py migrate
+  ./manage.py showmigrations
+  ```
+
+  ```
+  ./manage.py dbshell
+
+  CREATE TABLE plan (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    content TEXT NOT NULL,
+    created_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    updated_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+  );
+  ```
+
+- Run project via activated virtual environment:
+
+  ```
+  pipenv shell
+  ./manage.py runserver
+  ```
