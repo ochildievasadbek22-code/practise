@@ -1,5 +1,42 @@
 
 
+
+
+
+
+
+
+# M-TASK (PYTHON)
+
+# Shunday function yozing, u string qabul qilsin va string palindrom yani togri oqilganda ham, orqasidan oqilganda ham bir hil oqiladigan soz ekanligini aniqlab boolean qiymat qaytarsin.
+# MASALAN: palindrom_check("dad") return True;  palindrom_check("son") return False;
+
+
+# Masalaning yechimi:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# ======================================================================================================================
+
+
 # M-TASK (PYTHON)
 
 # Shunday function yozing, u string qabul qilsin va string palindrom yani togri oqilganda ham, orqasidan oqilganda ham bir hil oqiladigan soz ekanligini aniqlab boolean qiymat qaytarsin.
