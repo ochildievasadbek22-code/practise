@@ -1,18 +1,26 @@
 
 
 
+# O-TASK (PYTHON)
 
-
-
-
-
-# M-TASK (PYTHON)
-
-# Shunday function yozing, u string qabul qilsin va string palindrom yani togri oqilganda ham, orqasidan oqilganda ham bir hil oqiladigan soz ekanligini aniqlab boolean qiymat qaytarsin.
-# MASALAN: palindrom_check("dad") return True;  palindrom_check("son") return False;
+# Shunday function yozing, u har xil valuelardan iborat array qabul qilsin va List ichidagi sonlar yigindisini hisoblab chiqqan javobni qaytarsin.
+# MASALAN: calculate_summary([10, "10", {son: 10}, true, 35]) return 45
 
 
 # Masalaning yechimi:
+
+def calculate_summary(arr):
+  total = 0
+  for ele in arr:
+     if type(ele) == int or type(ele) == float:
+       total+= ele
+  return total
+print(calculate_summary([10, "10", {'son': 10}, True, 35]) )
+
+
+
+
+
 
 
 
@@ -45,12 +53,12 @@
 
 # Masalaning yechimi:
 
-def palindrom_check(a):
-    return a == a[::-1]
+# def palindrom_check(a):
+#     return a == a[::-1]
 
 
-print(palindrom_check("dad"))
-print(palindrom_check("son"))
+# print(palindrom_check("dad"))
+# print(palindrom_check("son"))
 
 
 # ======================================================================================================================
